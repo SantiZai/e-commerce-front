@@ -1,0 +1,12 @@
+.container-account-all {
+    background: url(../assets/bg-account.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-account {
+    background-color: #dddddd71;
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(10px);
+}

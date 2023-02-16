@@ -1,0 +1,38 @@
+.container-featured {
+	background: url(../assets/bg-home.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.con-title {
+	width: fit-content;
+}
+
+.title {
+	color: #101010;
+	display: inline-block;
+}
+
+.title::after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background-color: #e0e0e0;
+	transform: scaleX(0);
+	transition: transform 500ms ease-in-out;
+}
+
+.title:hover::after {
+	transform: scaleX(0.9);
+}
+
+.featured {
+	padding: 2rem;
+	background-color: #80808071;
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(10px);
+}

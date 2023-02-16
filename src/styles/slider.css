@@ -1,0 +1,6 @@
+.slider {
+	background: #eeeeee40;
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+}

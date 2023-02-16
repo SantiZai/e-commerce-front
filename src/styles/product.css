@@ -1,0 +1,8 @@
+.product-card {
+    width: 250px;
+    border-radius: .7rem;
+}
+
+.card-image {
+    border-radius: .5rem .5rem 0 0;
+}

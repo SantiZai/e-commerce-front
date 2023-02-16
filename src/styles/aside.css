@@ -1,0 +1,38 @@
+#sidebar {
+    position: fixed;
+    z-index: 2;
+    width: 200px;
+    height: 100%;
+    background: #eeeeee40;
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(10px);
+    right: -200px;
+    top: 0;
+    transition: all 500ms linear;
+    color: #101010;
+}
+  
+#sidebar.active {
+    right: 0px;
+}
+  
+#sidebar ul li {
+    color: #46494C;
+    list-style: none;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #404040;
+    text-align: center;
+}
+
+.avatar {
+    width: 30%;
+}
+  
+#sidebar .toggle-btn {
+    position: absolute;
+    right: 210px;
+    top: 20px;
+    cursor: pointer;
+    width: 28%;
+}

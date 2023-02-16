@@ -1,0 +1,1 @@
+export const API = 'https://e-commerce-back-production-5b17.up.railway.app/api'

@@ -1,0 +1,17 @@
+.container-all {
+    background: url(../assets/bg-sign-up.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    filter: grayscale(50%);
+}
+
+.container-form {
+    background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(10px);
+}
