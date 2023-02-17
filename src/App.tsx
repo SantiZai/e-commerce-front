@@ -44,7 +44,7 @@ function App() {
           ? <Cart log={logged} />
           : <Navigate replace to='/login' />
         } />
-        <Route path='*' element={<NotFound />} />
+        <Route path='*' element={<Home log={logged} />} />
       </Routes>
       <Footer />
     </Router>
