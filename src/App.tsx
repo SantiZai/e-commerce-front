@@ -30,7 +30,7 @@ function App() {
     <Router>
       <Aside link1={ logged ? 'My account' : 'Login' } logged={logged} user={user} />
       <Routes>
-        <Route path='/' element={<Home log={logged} />} />
+        <Route path='/home' element={<Home log={logged} />} />
         <Route path='/products' element={<AllProducts />} />
         <Route path='/account' element={
           logged
