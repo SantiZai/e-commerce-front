@@ -17,7 +17,7 @@ export const Featured = () => {
 			<div className='flex m-auto con-title justify-center relative'>
 				<h2 className='text-4xl title'>Featured products</h2>
 			</div>
-			<div className='featured rounded-md flex flex-wrap justify-center w-1/2 mx-auto my-8'>
+			<div className='featured rounded-md flex flex-wrap justify-center w-full sm:w-1/2 mx-auto my-8'>
 				{data.map(product => {
 					return (
 						<Products
