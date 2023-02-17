@@ -1,7 +1,19 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import reactRefresh from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [reactRefresh()],
+  build: {
+    sourcemap: true,
+    outDir: 'dist',
+    rollupOptions: {
+      input: 'src/index.tsx',
+      output: {
+        format: 'esm',
+        dir: 'dist'
+      },
+      external: ['react', 'react-dom'],
+      plugins: []
+    }
+  }
 })
